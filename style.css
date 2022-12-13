@@ -73,7 +73,7 @@ nav ul li a{
 
 
 .back-video{
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     z-index: -1;
