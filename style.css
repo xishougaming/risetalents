@@ -16,10 +16,16 @@ body{
 }
 .back-video{
     position: fixed;
-    padding: auto;
-    margin: auto;
-    z-index: -1;
-    object-fit: cover;
+    z-index: -1000;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 @media (min-aspect-ratio: 16/9){
     .back-video{
