@@ -19,7 +19,6 @@ body{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	color: black;
 	padding: 0 20px;
 	z-index: -10;
 }
@@ -50,15 +49,6 @@ body{
 	left: 0;
 	position: absolute;
 }
-
-@media (min-aspect-ratio: 16/9){
-    .back-video{
-    width: 100%;
-    height: auto;
-    }
-}
-
-
 .logo{
     width: 50px; 
     cursor: pointer;
