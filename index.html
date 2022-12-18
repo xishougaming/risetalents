@@ -2,19 +2,37 @@
 <html>
 <head>
     <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>RISE TALENTS LIVE</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta charset="utf-8">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
 <div class="header">
     
     <nav>
         <img src="images/logo.png" class="logo">
-        <div>
-            <a href=https://docs.google.com/forms/d/130heGTlLjBVpDgOSGQkaZB94B3yofzcN7o8bfboScx4/viewform?fbclid=IwAR2_NvBrimosD1snW-3df2tKlaEUZA3su7sZpCAoJLYZU-YsyJFgtuXsaiY&edit_requested=true target="_blank" class="hero-btn">JOIN US</a>
-        </div>
-
-    </nav>
+        <ul>
+           <li class="logo-text">RISE</li>
+           <li class="items"><a href="#">Home</a></li>
+           <li class="items"><a href="#about">About</a></li>
+           <li class="items"><a href="#">Events</a></li>
+           <li class="items"><a href="#">Talents</a></li>
+           <li class="hero-btn"><a href=https://docs.google.com/forms/d/130heGTlLjBVpDgOSGQkaZB94B3yofzcN7o8bfboScx4/viewform?fbclid=IwAR2_NvBrimosD1snW-3df2tKlaEUZA3su7sZpCAoJLYZU-YsyJFgtuXsaiY&edit_requested=true target="_blank">JOIN US</a></li>
+           <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+     </nav>
+     <script>
+        $(document).ready(function(){
+          $('.btn').click(function(){
+            $('.items').toggleClass("show");
+            $('ul li').toggleClass("hide");
+          });
+        });
+     </script>
 
     <div class="header-content">
         
@@ -49,6 +67,29 @@
 
     </div>
 </div>
+<section id="about">
+    <h1></h1>
+    <p></p>
 
-</body>
+    <h3>Follow Us On Social Media</h2>
+    
+    <div class="buttons">
+        <div class="row">
+           <button class="facebook">
+           <span><i class="fab fa-facebook-f"></i></span><a href="https://facebook.com/" target="_blank">
+           Facebook</button></a>
+           <button class="instagram">
+           <span><i class="fab fa-instagram"></i></span><a href="https://instagram.com/" target="_blank">
+           Instagram</button></a>
+        </div>
+        <div class="row">
+           <button class="twitter">
+           <span><i class="fab fa-twitter"></i></span><a href="https://twitter.com/" target="_blank">
+           Twitter</button></a>
+           <button class="youtube">
+           <span><i class="fab fa-youtube"></i></span><a href="https://youtube.com/" target="_blank">
+           YouTube</button></a>
+        </div>
+     </div>
+  </body>
 </html>
