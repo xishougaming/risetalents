@@ -10,9 +10,7 @@ body{
 }
 .header{
     width: 100%;
-    height: 120vh;
-    background-size: cover;
-    background-position: center;
+    height: 100vh;
 }
 .back-video{
     padding: 0;
