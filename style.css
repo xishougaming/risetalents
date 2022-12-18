@@ -19,7 +19,6 @@ body{
     margin: 0;
     position: absolute;
     z-index: -1;
-    transform: translate(50%,50%);
     object-fit: center;
 }
 @media (min-aspect-ratio: 16/9){
