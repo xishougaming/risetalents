@@ -2,7 +2,7 @@
     margin: 0; 
     padding: 0; 
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat',sans-serif;
 }
 body{
     background: #000; 
@@ -10,30 +10,9 @@ body{
 }
 .header{
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
-
-}
-.video{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: auto;
-    width: 20%;
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0;
-}
-
-.logo{
-    width: 50px; 
-    cursor: pointer;
-    margin: 20px;
-
 }
 .hero-btn{
     display: inline-block;
@@ -51,18 +30,6 @@ nav{
     border: 1px solid #f44336;
     background: #f44336;
     transition: 1s;
-}
-.button{
-    display: inline-block;
-    text-decoration: none;
-    color: #f44336;
-    border: 1px solid #f44336; 
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    margin: auto;
 }
 .header-content{
     position: absolute;
@@ -128,3 +95,213 @@ nav{
     margin-bottom: 20px;
 }
 
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+  }
+  .buttons{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .buttons .row{
+    display: block;
+   margin-left: 60px;
+  }
+  .buttons .row button{
+    position: relative;
+    display: block;
+    height: 55px;
+    width: 150px;
+    margin: 40px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+    transition: all 0s ease-out;
+  }
+  .row button:active{
+    top: 3px;
+  }
+  .row button.facebook,
+  .row button.facebook span{
+    background: #3B5999;
+    border-left: 1px solid #2E4476;
+    box-shadow: 0px 5px 0px 0px #2E4476;
+  }
+  .row button.facebook:active{
+    box-shadow: 0px 2px 0px 0px #2E4476;
+  }
+  .row button.twitter,
+  .row button.twitter span{
+    background: #46C1F6;
+    border-left: 1px solid #269BD0;
+    box-shadow: 0px 5px 0px 0px #269BD0;
+  }
+  .row button.twitter:active{
+    box-shadow: 0px 2px 0px 0px #269BD0;
+  }
+  .row button.instagram,
+  .row button.instagram span{
+    background: #e1306c;
+    border-left: 1px solid #c91d56;
+    box-shadow: 0px 5px 0px 0px #c91d56;
+  }
+  .row button.instagram:active{
+    box-shadow: 0px 2px 0px 0px #c91d56;
+  }
+  .row button.youtube,
+  .row button.youtube span{
+    background: #DE463B;
+    border-left: 1px solid #C02B21;
+    box-shadow: 0px 5px 0px 0px #C02B21;
+  }
+  .row button.youtube:active{
+    box-shadow: 0px 2px 0px 0px #C02B21;
+  }
+  .row button span{
+    position: absolute;
+    height: 55px;
+    width: 60px;
+    top: 0;
+    left: -60px;
+    line-height: 55px;
+    font-size: 25px;
+    display: block;
+    font-weight: normal;
+    border-radius: 5px 0 0 5px;
+  }
+  .row button:active span{
+    top: -3px;
+  }
+  .row button.facebook span{
+    border-right: 1px solid #2E4476;
+  }
+  .row button.twitter span{
+    border-right: 1px solid #269BD0;
+  }
+  .row button.instagram span{
+    border-right: 1px solid #c91d56;
+  }
+  .row button.youtube span{
+    border-right: 1px solid #C02B21;
+  }
+  .row button.facebook:active span{
+    box-shadow: 0px 5px 0px 0px #2E4476,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
+  .row button.twitter:active span{
+    box-shadow: 0px 5px 0px 0px #269BD0,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
+  .row button.instagram:active span{
+    box-shadow: 0px 5px 0px 0px #c91d56,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
+  .row button.youtube:active span{
+    box-shadow: 0px 5px 0px 0px #C02B21,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
+
+  a {
+    text-decoration: none;
+}
+nav{
+    background: #151515;
+    padding: 5px 40px;
+  }
+  nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul li{
+    padding: 15px 0;
+    cursor: pointer;
+  }
+  nav ul li.items{
+    position: relative;
+    width: auto;
+    margin: 0 16px;
+    text-align: center;
+    order: 3;
+  }
+  nav ul li.items:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 5px;
+    height: 2px;
+    width: 100%;
+    background: #33ffff;
+    opacity: 0;
+    transition: all 0.2s linear;
+  }
+  nav ul li.items:hover:after{
+    opacity: 1;
+    bottom: 8px;
+  }
+  nav ul li.logo-text{
+    flex: 1;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    cursor: default;
+    user-select: none;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .4s;
+  }
+  nav ul li:hover a{
+    color: cyan;
+  }
+  nav ul li i{
+    font-size: 23px;
+  }
+  nav ul li.btn{
+    display: none;
+  }
+  nav ul li.btn.hide i:before{
+    content: '\f00d';
+  }
+  @media all and (max-width: 900px){
+    nav{
+      padding: 5px 30px;
+    }
+    nav ul li.items{
+      width: 100%;
+      display: none;
+    }
+    nav ul li.items.show{
+      display: block;
+    }
+    nav ul li.btn{
+      display: block;
+    }
+    nav ul li.items:hover{
+      border-radius: 5px;
+      box-shadow: inset 0 0 5px #33ffff,
+                  inset 0 0 10px #66ffff;
+    }
+    nav ul li.items:hover:after{
+      opacity: 0;
+    }
+  }
+  .logo{
+    width: 60px; 
+    cursor: pointer;
+    position:absolute;
+    margin:auto;
+  }
