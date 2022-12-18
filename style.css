@@ -18,7 +18,6 @@ body{
     margin: 0;
     position: fixed;
     z-index: -1;
-    object-fit: center;
     background-size: 70%;
 }
 @media (min-aspect-ratio: 16/9){
