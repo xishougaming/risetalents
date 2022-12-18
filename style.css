@@ -14,18 +14,26 @@ body{
     background-size: cover;
     background-position: center;
 }
-.back-video{
-    position: fixed;
-    z-index: -1000;
+video {
+  z-index: -1000;
   left: 50%;
   width: 100vw;
   height: 100vh;
+  position: absolute;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   object-fit: cover;
+}
+
+.showcase {
+  display: block;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100%;
 }
 @media (min-aspect-ratio: 16/9){
     .back-video{
