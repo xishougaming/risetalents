@@ -20,7 +20,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 90%;
+    width: 50%;
 }
 @media (min-aspect-ratio: 16/9){
     .video{
