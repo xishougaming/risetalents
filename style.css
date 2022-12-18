@@ -20,7 +20,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 50%;
+    width: 30%;
 }
 nav{
     display: flex;
