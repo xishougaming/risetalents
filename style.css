@@ -50,8 +50,8 @@ body{
     font-weight: 400;
     margin-bottom: 40px;
 }
-.header-content h3{
-    font-size: 60px;
+.header-content h2{
+    font-size: 40px;
     line-height: 70px;
     font-weight: 600;
     max-width: 650px;
