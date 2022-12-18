@@ -102,8 +102,8 @@ html,body{
   }
   .buttons{
     display: flex;
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     align-items: center;
     justify-content: space-around;
   }
