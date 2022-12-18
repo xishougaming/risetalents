@@ -41,7 +41,7 @@ body{
 
 }
 .header-content h1{
-    font-size: 60px;
+    font-size: 30px;
     line-height: 70px;
     font-weight: 600;
     max-width: 650px;
@@ -51,7 +51,7 @@ body{
     margin-bottom: 40px;
 }
 .header-content h2{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 70px;
     font-weight: 600;
     max-width: 650px;
