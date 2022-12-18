@@ -19,6 +19,7 @@ body{
     margin: 0;
     position: fixed;
     z-index: -1;
+    transform: translate(-50%,-50%);
     object-fit: cover;
 }
 @media (min-aspect-ratio: 16/9){
@@ -41,7 +42,7 @@ nav{
 }
 
 .logo{
-    width: 100px; 
+    width: 80px; 
     cursor: pointer;
 
 }
