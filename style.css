@@ -19,7 +19,7 @@ video {
   left: 50%;
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -34,18 +34,6 @@ video {
   overflow: hidden;
   position: relative;
   padding-bottom: 100%;
-}
-@media (min-aspect-ratio: 16/9){
-    .back-video{
-    width: 100%;
-    height: auto;
-    }
-}
-@media (max-aspect-ratio: 16/9){
-    .back-video{
-    width: auto;
-    height: 100%;
-    }
 }
 nav{
     display: flex;
