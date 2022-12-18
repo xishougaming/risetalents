@@ -64,6 +64,7 @@ body{
 .logo{
     width: 50px; 
     cursor: pointer;
+	z-index: 1000;
 
 }
 .hero-btn{
