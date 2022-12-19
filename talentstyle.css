@@ -21,9 +21,7 @@ section{
   width: 400px;
   position: relative;
   transform-style: preserve-3d;
-	perspective: 1000px;
-  margin: auto;
-  padding: auto;
+perspective: 1000px;
 }
 .wrapper .card{
   position: absolute;
