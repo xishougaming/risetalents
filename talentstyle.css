@@ -7,8 +7,8 @@
 }
 section{
   display: grid;
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;
   place-items: center;
   background: black;
   grid-template-columns: auto;
@@ -28,8 +28,8 @@ section{
 }
 .wrapper .card{
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;
   padding: 5px;
   background: #fff;
   border-radius: 10px;
@@ -43,8 +43,8 @@ section{
   transform: rotateY(-180deg);
 }
 .wrapper .card img{
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;
   object-fit: cover;
   border-radius: 10px;
 }
