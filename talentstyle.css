@@ -7,8 +7,8 @@
 }
 section{
   display: grid;
-  height: 90%;
-  width: 90%;
+  height: 100%;
+  width: 1000%;
   place-items: center;
   background: black;
   grid-template-columns: auto;
