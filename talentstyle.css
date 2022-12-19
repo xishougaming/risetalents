@@ -19,6 +19,8 @@ section{
   background: #000;
 }
 .wrapper{
+	height: 90%;
+  width: 90%;
   height: 400px;
   width: 400px;
   position: relative;
