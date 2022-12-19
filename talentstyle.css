@@ -7,8 +7,8 @@
 }
 section{
   display: inline-grid;
-  height: 80%;
-  width: 80%;
+  height: 50%;
+  width: 50%;
   place-items: center;
   background: black;
 }
