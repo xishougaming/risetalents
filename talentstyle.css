@@ -6,14 +6,11 @@
   font-family: 'Poppins', sans-serif;
 }
 section{
-  display: grid;
+  display: block;
   height: 100%;
   width: 100%;
   place-items: center;
   background: black;
-  grid-template-rows: 420px 420px;
-  grid-template-columns: 420px 420px;
-
 }
 ::selection{
   color: #fff;
