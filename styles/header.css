@@ -1,0 +1,50 @@
+.container{
+    width: 80%;
+    background-image: linear-gradient(rgba(9,0,77.0.65),rgba(9.0.77.0.65));
+    background-size: cover;
+    background-position: center;
+    top: 0;
+ 
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.btn a{
+    text-decoration: none;
+}
