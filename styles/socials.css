@@ -109,6 +109,7 @@
   #app-badges img {
     width: 150px;
     height: auto;
+    margin-bottom: 30px;
   }
   
   #app-badges {
