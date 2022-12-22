@@ -14,7 +14,7 @@ nav{
     padding: 30px 0;
 }
 .logo{
-    width: 100px;
+    width: 80px;
     cursor: pointer;
 }
 nav ul{
@@ -34,7 +34,7 @@ nav ul li a{
 .btn{
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: 0;
     outline: 0;
     border-radius: 5px;
