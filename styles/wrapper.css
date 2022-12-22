@@ -7,8 +7,8 @@
   }
   .wrapper .card{
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
     padding: 5px;
     background: rgb(248, 248, 248);
     border-radius: 10px;
