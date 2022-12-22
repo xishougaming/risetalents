@@ -19,13 +19,13 @@ nav{
 }
 nav ul{
     list-style: none;
-    width: 100%;
+    width: 90%;
     text-align: right;
     padding: 60px;
 }
 nav ul li{
     display: inline-block;
-    margin: 10px 20px;
+    margin: 5px 10px;
 }
 nav ul li a{
     color: black;
