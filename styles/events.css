@@ -1,0 +1,21 @@
+#under-construction {
+    text-align: center;
+  }
+  
+  #under-construction h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #under-construction video {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #under-construction p {
+    font-size: 18px;
+  }
+  

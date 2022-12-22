@@ -1,0 +1,10 @@
+
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.logo{
+    width: 80px;
+    display: relative;
+    left: 0;
+}
